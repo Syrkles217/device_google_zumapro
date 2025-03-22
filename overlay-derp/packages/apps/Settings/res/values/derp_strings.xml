@@ -5,6 +5,6 @@
 -->
 <resources>
 
-    <string name="maintainer_name">Alexander Brunswig</string>
-    <string name="maintainer_telegram">https://t.me/DerpFestAOSP</string>
+    <string name="maintainer_name">SyRkLeS</string>
+    <string name="maintainer_telegram" translatable="false">https://github.com/syrkles217</string>
 </resources>
