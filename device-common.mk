@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+DERP_BUILDTYPE=Official
+ DERP_VERSION_APPEND_TIME_OF_DAY=true
+ EXTRA_UDFPS_ICONS=true
+
 ifneq ($(BOARD_WITHOUT_RADIO), true)
 -include vendor/google_devices/zumapro/proprietary/telephony/device-vendor.mk
 endif
