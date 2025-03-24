@@ -18,6 +18,11 @@ DERP_BUILDTYPE=Official
  DERP_VERSION_APPEND_TIME_OF_DAY=true
  EXTRA_UDFPS_ICONS=true
 
+# Pixel Cam
+ PRODUCT_PACKAGES += \
+ 	GoogleCamera
+
+
 ifneq ($(BOARD_WITHOUT_RADIO), true)
 -include vendor/google_devices/zumapro/proprietary/telephony/device-vendor.mk
 endif
